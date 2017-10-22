@@ -1,0 +1,72 @@
+body, html {
+    height: 100%;
+    margin:0;
+}
+body{
+  font-size:140%;
+  font-family: Century;
+  background-color:#cccccc;
+}
+
+img{
+  width:100%;
+}
+
+h1{
+  color:black;
+  text-align:center;
+  margin-bottom:0;
+  padding:10px;
+  text-decoration:underline;
+}
+
+#main{
+  display:table;
+}
+
+section{
+  overflow:hidden;
+  display:table-row;
+}
+
+
+section > div{
+  height:100%;
+  overflow:hidden;
+  display:table-cell;
+  width:50%;
+  border:1px solid black;
+  vertical-align:middle;
+}
+
+
+section .text{
+  background-color:#2E235C;
+  color:white;
+  text-align:center;
+}
+
+
+#duck1, #duck2{
+  width:48%;
+  margin-left:4px;
+  margin-right:4px;
+  margin-top:0;
+  border: 2px solid black;
+}
+#duck1{
+  float: left;
+}
+#duck2{
+  transform:scaleX(-1);
+  float: right;
+}
+
+#explan{
+  background:#2E235;
+  margin-right:20%;
+  margin-left:20%;
+  margin-top:10px;
+  margin-bottom:15px;
+  text-align:left;
+}
